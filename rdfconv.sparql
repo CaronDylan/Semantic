@@ -1,0 +1,18 @@
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX aiiso: <http//purl.org/vocab/aiiso/schema#>
+
+CONSTRUCT {
+	?URI a aiiso:Module;
+		xsd:gYear ?Annee;
+		xsd:string ?Discipline;
+		
+
+}
+FROM <file:fr-esr-insertion_professionnelle-lp.csv>
+WHERE {
+	BIND(URI(CONCAT('http://ex.org/Project/', ?Annee))AS ?URI)
+
+}

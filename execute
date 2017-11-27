@@ -1,0 +1,1 @@
+./tarql/target/appassembler/bin/tarql -d semicolon --quotechar x --ntriples   rdfconv.sparql fr-esr-insertion_professionnelle-lp.csv > test.txt

@@ -1,0 +1,29 @@
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX aiiso: <http//purl.org/vocab/aiiso/schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ex: <http://example.org/Project/>
+
+
+### Comparer et trouver une possible relation entre le taux de chômage régional et le taux d’insertion par domaine de licence professionnelle.
+
+SELECT ?tauxChomage ?tauxInsertion ?loc ?domaine
+WHERE {
+	?p owl:location ?loc;
+	?p aiiso:departement ?domaine;
+	?p ex:tauxChomage ?tauxChomage
+	?p ex:tauxInsertion ?tauxInsertion+
+	ORDER BY ?loc
+}
+
+##On sort tous les domaines avec leur villes et taux d'insertion ordonné par le taux d'insertion
+SELECT ?discipline ?loc ?insert
+WHERE{
+	?p owl:location ?loc;
+	?p ex:discipline ?discipline;
+	?p ex:tauxInsertion ?insert
+	ORDER BY ?insert
+	
+}
