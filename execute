@@ -1,1 +1,1 @@
-./tarql/target/appassembler/bin/tarql -d semicolon --quotechar x   ./Construct/construct.sparql ./Data/fr-esr-insertion_professionnelle-lp.csv > test.ttl
+./tarql/target/appassembler/bin/tarql -d semicolon --quotechar x   ./Construct/construct.sparql ./Data/fr-esr-insertion_professionnelle-lp.csv > data.ttl
