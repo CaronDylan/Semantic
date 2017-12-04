@@ -18,10 +18,10 @@ CONSTRUCT {
 		owl:year ?annee;
 		dbo:diploma ?diplome;
 		ex:num_etabli ?num_e;
-		owl:location ?etablissement;
+		owl:location ?etablissement.
 
 	#Données à lié.
-	?URI_Code_Academie rdf:type ac:codeAcademie;
+	?URI_Code_Academie rdf:type ac:codeAcademie.
 
 	?URI ac:academie ?academie;						# aiiso:organization?
 		ac:codeDomaine ?code_du_domaine;
@@ -49,7 +49,7 @@ CONSTRUCT {
 		ex:femmes ?taux_femmes;
 		ex:salaireNetMensuel_first_quartile ?salaire_net_mensuel_first_quartile;
 		ex:salaireNetMensuel_third_quartile ?salaire_net_mensuel_third_quartile;
-		ex:cleETAB ?cle_etab;
+		ex:cleETAB ?cle_etab.
 }
 FROM <file:fr-esr-insertion_professionnelle-lp.csv>
 
