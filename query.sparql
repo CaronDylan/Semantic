@@ -3,27 +3,29 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX aiiso: <http//purl.org/vocab/aiiso/schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX ex: <http://example.org/Project/>
+PREFIX owl: <http://w3.org/2002/07/owl#>
+PREFIX ex: <http://example.org/project>
+PREFIX ac: <http://academie.fr/vocab#>
+PREFIX stats: <http://stats.org/vocab#>
 
 
-### Comparer et trouver une possible relation entre le taux de chômage régional et le taux d’insertion par domaine de licence professionnelle.
+### Nombre de femmes par domaine, academie et discipline
 
-SELECT ?tauxChomage ?tauxInsertion ?loc ?domaine
+SELECT  ?domaine ?discipline ?academie ?femmes
 WHERE {
-	?p owl:location ?loc;
-	?p aiiso:departement ?domaine;
-	?p ex:tauxChomage ?tauxChomage
-	?p ex:tauxInsertion ?tauxInsertion+
-	ORDER BY ?loc
+	?p 	ac:domaine ?domaine;
+     	ac:discipline ?discipline;
+      	ac:academie ?academie;
+		ex:femmes ?femmes.
 }
+ORDER BY DESC (?femmes)
 
-##On sort tous les domaines avec leur villes et taux d'insertion ordonné par le taux d'insertion
-SELECT ?discipline ?loc ?insert
+##Donne le pourcentage de personne ayant trouvé un emploi à plein temps par discipline et académie
+SELECT ?discipline ?academie ?nbFullTimeJob
 WHERE{
-	?p owl:location ?loc;
-	?p ex:discipline ?discipline;
-	?p ex:tauxInsertion ?insert
-	ORDER BY ?insert
+	?p ac:academie ?academie;
+	   ac:discipline ?discipline;
+	   stats:numberOfFullTimeJobs  ?nbFullTimeJob
 	
 }
+ORDER BY DESC (?academie)
