@@ -1,0 +1,87 @@
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX aiiso: <http://purl.org/vocab/aiiso/schema#>
+PREFIX owl: <http://w3.org/2002/07/owl#>
+PREFIX sch: <http://schema.org/>
+
+PREFIX stats: <http://stats.org/vocab#>
+PREFIX ac: <http://academie.fr/vocab#>
+
+PREFIX ex:<http://example.org/project>
+
+CONSTRUCT {
+
+	
+	?URI a owl:Statistic;
+		owl:year ?annee;
+		dbo:diploma ?diplome;
+		ex:num_etabli ?num_e;
+		owl:location ?etablissement;
+
+	#Données à lié.
+	?URI_Code_Academie rdf:type ac:codeAcademie;
+
+	?URI ac:academie ?academie;						# aiiso:organization?
+		ac:codeDomaine ?code_du_domaine;
+		ac:domaine ?domaine;						# aiiso:department?
+		ac:codeDiscipline ?code_discipline
+		ac:discipline ?discipline;					# aiiso:subject?
+		stats:period ?situation;						# owl:period?
+		stats:answerCount ?nombre_de_reponses;		# sch:answerCount?
+		stats:answerRatio ?taux_de_reponses;
+		ac:subjectWeight ?poids_de_la_discipline;
+		stats:employmentRate ?taux_dinsertion;
+
+		ex:emplois ?emplois_cadre_ou_professions_intermediaires;
+
+		stats:numberOfStableJobs ?emplois_stables;
+		stats:numberOfFullTimeJobs ?emplois_a_temps_plein;
+		
+		ex:salaireMedian ?salaire_median;
+		ex:salaireBrutAnnuel ?salaire_brut_annuel;
+		ex:diplomeBoursier ?diplome_boursier;
+		ex:chomageregional ?taux_chomage_regional;
+		ex:salaireMensuelRegio ?salaire_net_mensuel_regional;
+		ex:emploiCadre ?emploi_cadre;
+		ex:emploiExt ?emplois_region_exterieur;
+		ex:femmes ?taux_femmes;
+		ex:salaireNetMensuel_first_quartile ?salaire_net_mensuel_first_quartile;
+		ex:salaireNetMensuel_third_quartile ?salaire_net_mensuel_third_quartile;
+		ex:cleETAB ?cle_etab;
+}
+FROM <file:fr-esr-insertion_professionnelle-lp.csv>
+
+WHERE {
+	BIND(xsd:integer(?Annee) As ?annee)
+	BIND(xsd:integer(?Diplôme) As ?diplome)
+	BIND(xsd:string(?Numéro_de_l'établissement) As ?num_e)
+	BIND(xsd:string(?Etablissement) As ?etablissement)
+	BIND(xsd:string(?Code_de_l'académie) As ?URI_Code_Academie)
+	BIND(xsd:string(?Académie) As ?academie)
+	BIND(xsd:string(?Code_du_domaine) As ?code_du_domaine)
+	BIND(xsd:string(?Domaine) As ?domaine)
+	BIND(xsd:string(?Code_de_la_discipline) As ?code_discipline)
+	BIND(xsd:string(?Discipline) As ?discipline)
+	BIND(xsd:string(?situation) As ?situation)
+
+	BIND(xsd:string(?Nombre_de_réponses) As ?nombre_de_reponses)
+	BIND(xsd:integer(?Taux_de_réponse) As ?taux_de_reponses)
+	BIND(xsd:integer(?Poids_de_la_discipline) As ?poids_de_la_discipline)
+	BIND(xsd:string(?taux_d'insertion) As ?taux_dinsertion)
+	BIND(xsd:string(?%_emplois_cadre_ou_professuons_intermédiares) As ?emplois_cadre_ou_professions_intermediaires)
+	BIND(xsd:string(?%_emplois_stables) As ?emplois_stables)
+	BIND(xsd:string(?%_emplois_à_temps_plein) As ?emplois_a_temps_plein)
+	BIND(xsd:string(?Salaire_net_médian_des_emplois_à_temps_plein) As ?salaire_median)
+	BIND(xsd:string(?Salaire_brut_annuel_estimé) As ?salaire_brut_annuel)
+	BIND(xsd:string(?%_de_diplômés_boursiers) As ?diplome_boursier)
+	BIND(xsd:string(?Taux_de_chômage_régional) As ?taux_chomage_regional)
+	BIND(xsd:string(?Salaire_net_mensuel_régional) As ?salaire_net_mensuel_regional)
+	BIND(xsd:string(?%_emplois_cadre) As ?emploi_cadre)
+	BIND(xsd:string(?%_emplois_extérieurs_à_la_région_de_l'université) As ?emplois_region_exterieur)
+	BIND(xsd:string(?%_femmes) As ?taux_femmes)
+	BIND(xsd:string(?Salaire_net_mensuel_régional_1er_quartile) As ?salaire_net_mensuel_first_quartile)
+	BIND(xsd:string(?Salaire_net_mensuel_régional_3ème_quartile) As ?salaire_net_mensuel_third_quartile)
+	BIND(xsd:string(?cle_ETAB) As ?cle_etab)
+}
