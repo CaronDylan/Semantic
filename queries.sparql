@@ -17,7 +17,7 @@ WHERE {
      	ac:discipline ?discipline;
       	ac:academie ?academie;
 		ex:femmes ?femmes.
-FILTER (?femmes != "ns")
+FILTER (?femmes != "ns" && ?femmes != "nd")
 }
 ORDER BY DESC (?femmes)
 
@@ -27,8 +27,6 @@ WHERE{
 	?p ac:academie ?academie;
 	   ac:discipline ?discipline;
 	   stats:numberOfFullTimeJobs  ?nbFullTimeJob.
-  FILTER(?nbFullTimeJob != "ns")
-  FILTER(?nbFullTimeJob != "nd")
-	
+  FILTER(?nbFullTimeJob != "ns" && ?nbFullTimeJob != "nd")
 }
 ORDER BY ASC (?academie)

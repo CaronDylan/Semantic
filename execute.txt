@@ -1,3 +1,0 @@
-./tarql/target/appassembler/bin/tarql -d semicolon --quotechar x --ntriples   rdfconv.sparql fr-esr-insertion_professionnelle-lp.csv > test.txt
-
-C:\Users\Tee-vee\Desktop\websem2>tarql\target\appassembler\bin\tarql.bat -d semicolon --ntriples query.sparql fr-esr-insertion_professionnelle-lp.csv > out.txt

@@ -1,0 +1,63 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbo:<http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/spec/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX igeo: <http://rdf.insee.fr/def/geo#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX aiiso: <http://purl.org/vocab/aiiso/schema#>
+
+CONSTRUCT {
+  ?URI_Record a schema:dataset;
+    foaf:gender ?sexe_de_l_etudiant;
+    igeo:subdivisionDirecte ?niveau_geo;
+    igeo:codeRegion ?URI_Code_Region_NOUS;
+
+    igeo:nom ?URI_Region_NOUS;
+
+	aiiso:code ?URI_id_academie;
+
+    ex:effectif_ing ?EFFECTIF_ING;
+    ex:effectif_dut ?EFFECTIF_DUT;
+    dbo:numberOfStudents ?EFFECTIF_TOT;
+    dbo:educationSystem ?secteur_de_l_etablissement;
+    schema:EducationalOrganization ?rgp_formations_ou_etablissements;
+    dbo:formationYear ?annee.
+    
+    ?URI_Region_NOUS rdf:type igeo:nom;
+        owl:sameAs ?URI_REGION_HIPPO.
+
+    ?URI_Code_Region_NOUS rdf:type igeo:codeRegion;
+        owl:sameAs ?URI_Code_Region_LOIC;
+        owl:sameAs ?URI_Code_Region_IVAN.
+
+
+	#liens avec les datas sur l'insertion professionnelle
+	?URI_id_academie rdf:type aiiso:code;
+		owl:sameAs ?URI_id_aca_effectifs_etus_sup.
+
+}
+FROM <file:data_ees.csv>
+WHERE {
+  BIND (URI(CONCAT('http://schema.org/record_id/', ?recordid)) AS ?URI_Record) .
+
+  BIND(URI(CONCAT("https://ex.org/hippo/region/",REPLACE(?geo_nom, " ", "_"))) AS ?URI_REGION_HIPPO).
+
+  BIND (URI(CONCAT("https://ex.org/nous/region/", REPLACE(?geo_nom, " ","_"))) AS ?URI_Region_NOUS) .
+
+  BIND (URI(CONCAT("https://ex.org/projet/id_aca/", REPLACE(?aca_id, " ","_"))) AS ?URI_id_academie) .
+
+  
+  BIND ((STRAFTER(?geo_id, "R")) AS ?codereg)
+  BIND (URI(CONCAT("http://ex.org/nous/codeRegion/", ?codereg)) AS ?URI_Code_Region_NOUS)  
+  BIND (URI(CONCAT("http://ex.org/budget/codeRegion/", ?codereg)) AS ?URI_Code_Region_LOIC)  
+  BIND (URI(CONCAT("http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/", ?codereg)) AS ?URI_Code_Region_IVAN)
+
+
+
+  BIND (xsd:integer(?effectif_ing) AS ?EFFECTIF_ING)
+  BIND (xsd:integer(?effectif_dut) AS ?EFFECTIF_DUT)
+  BIND (xsd:integer(?effectif) AS ?EFFECTIF_TOT)
+  BIND (xsd:gYear(?rentree) AS ?annee)
+}
