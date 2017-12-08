@@ -1,15 +1,13 @@
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+#PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX aiiso: <http://purl.org/vocab/aiiso/schema#>
 PREFIX owl: <http://w3.org/2002/07/owl#>
-PREFIX sch: <http://schema.org/>
+#PREFIX sch: <http://schema.org/>
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
 PREFIX stats: <http://stats.org/vocab#>
 PREFIX ac: <http://academie.fr/vocab#>
-
 PREFIX ex:<http://example.org/project>
 
 CONSTRUCT {
@@ -27,7 +25,7 @@ CONSTRUCT {
 		ac:domaine ?domaine;						# aiiso:department?
 		ac:codeDiscipline ?code_de_la_discipline;
 		ac:discipline ?discipline;					# aiiso:subject?
-		stats:period ?situation;					# owl:period?
+		owl:period ?situation;					
 		stats:answerCount ?nombre_de_reponses;		# sch:answerCount?
 		stats:answerRatio ?taux_de_reponse;
 		ac:subjectWeight ?poids_de_la_discipline;
@@ -52,13 +50,15 @@ CONSTRUCT {
 		
 		#Données à lier.
 		?URI_id_academie rdf:type aiiso:code;
-				owl:sameAs ?URI_id_aca_effectifs_etus_sup.
+				owl:sameAs ?URI_id_academie_EES.
 }
 FROM <file:fr-esr-insertion_professionnelle-lp.csv>
 
 WHERE {
 
 	BIND(URI(CONCAT("http://ex.org/projet/", ?academie, ?discipline, ?domaine))AS ?URI)
+
 	BIND(URI(CONCAT("http://ex.org/projet/id_aca/", ?code_de_l_academie))AS ?URI_id_academie)
+	BIND(URI(CONCAT("http://ex.org/projet/id_aca/", ?code_de_l_academie))AS ?URI_id_academie_EES)
 }
 

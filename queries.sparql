@@ -30,3 +30,19 @@ WHERE{
   FILTER(?nbFullTimeJob != "ns" && ?nbFullTimeJob != "nd")
 }
 ORDER BY ASC (?academie)
+
+# Requête fédérée
+# Donne le nom de l'académie correspondant à un effectif par regroupement de formations ou d'établissements
+
+SELECT DISTINCT ?effectif ?academie ?rgp_formations_ou_etablissements
+WHERE{
+	?x 				ac:academie 	?academie;
+    				aiiso:code 		?uri_academie.
+ 	?uri_academie 	owl:sameAs 		?uri_academie_other.
+  SERVICE <http://localhost:3030/data_ees> {
+    ?z 				aiiso:code 		?uri_academie_other;
+       				sch:EducationalOrganization ?rgp_formations_ou_etablissements;
+   					dbo:numberOfStudents ?effectif.
+  }
+  
+}

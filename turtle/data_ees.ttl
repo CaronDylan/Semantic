@@ -13,7 +13,7 @@
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Gervais-d'Auvergne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A06> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A06> ;
         dbo:numberOfStudents            8 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -28,15 +28,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A06>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A06>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A06> .
 
 <http://schema.org/record_id/84f57912d12cb3399a6c10df754aaf48077685a2>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Thiers> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A06> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A06> ;
         dbo:numberOfStudents            100 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -51,15 +52,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A06>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A06>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A06> .
 
 <http://schema.org/record_id/8086d59d2c543f733ee6c66aff14fda0439860be>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Anglet> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            33 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -74,15 +76,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/b1736976dbea4c243d31c10ec25b5756b4652ddc>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Assat> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_ing                 15 ;
         dbo:numberOfStudents            15 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -98,15 +101,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/c326592f099d7034663d6246007353513be3b314>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bardos> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            31 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -121,15 +125,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/d91339abc36c9bb56bf754a7bb63b691a62922e3>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bayonne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            61 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Classes préparatoires aux grandes écoles (CPGE)" ;
@@ -144,15 +149,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/120d96f44908dcd6350b0f51e27c7526fddc216a>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bayonne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            190 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -167,15 +173,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/efc354534e1d2b34bb62b3bb5fd1acf14c1ff5af>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bayonne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            67 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -190,15 +197,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/163f10ba763c94893a9c161cde84404a9321ba08>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bayonne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_ing                 83 ;
         dbo:numberOfStudents            218 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -214,15 +222,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/e9fce91edf78f136384e46d851e5bb42a46d060a>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bayonne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_ing                 478 ;
         dbo:numberOfStudents            644 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -238,15 +247,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/b21bad746a32595bf13536d659785fc6cc13e0e6>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bayonne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_dut                 247 ;
         dbo:numberOfStudents            1168 ;
         dbo:educationSystem             "Établissements publics" ;
@@ -262,15 +272,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/c778342687ef67257c1c7836ac50769f5d327d5d>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Biarritz> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            33 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles supérieures art et culture" ;
@@ -285,15 +296,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/ca60f9821eca4f407e4141e40cdced1953caa54c>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Biarritz> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            22 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles supérieures art et culture" ;
@@ -308,15 +320,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/fdfe05cc40bdc3371b84843fa754bfabe615c82c>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Biarritz> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            72 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -331,15 +344,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/bf57599b59058c12360644f7c19958464483eeea>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Hasparren> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            26 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -354,15 +368,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/471578021c7aaec1731d62698e5334f0609017aa>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Lescar> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            43 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -377,15 +392,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/635a3a08cb4a5c6cc5d7820838a9026ff5bebbfd>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Montardon> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            77 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -400,15 +416,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/b0402317d0a1b25af8683dff2939e9414f30153e>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Montardon> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            96 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -423,15 +440,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/4964d6f1ecf2f8b683157811bad65dd8cf59be58>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Mourenx> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            14 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -446,15 +464,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/807d4749e6d91b1d17f0c8a3a6c87f1cf02defa6>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Mourenx> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            15 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -469,15 +488,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/ddd567a62b9bf5f9c64297e966b8acf1d9b27538>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            185 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles supérieures art et culture" ;
@@ -492,15 +512,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/829e9cb88b470b0926a18bcd6c19bfc57141304e>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            48 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -515,15 +536,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/439e126c2c09dae0cd7adc8b6f36d35a61dbfcf9>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            87 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -538,15 +560,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/dd08f2402609976416c8f5125f421cf60ac5d5ad>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_ing                 66 ;
         ex:effectif_dut                 24 ;
         dbo:numberOfStudents            5350 ;
@@ -563,15 +586,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/b55e81cf50944ba3fed7adb74d75bdfa95c17b11>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_ing                 164 ;
         ex:effectif_dut                 167 ;
         dbo:numberOfStudents            4010 ;
@@ -588,15 +612,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/c15ac69771b06a65a6b5ff299f2764da57a7d537>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_ing                 10 ;
         dbo:numberOfStudents            1273 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -612,15 +637,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/5a44cb62d5bfece9c0dcfad3787bc05b484a555a>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         ex:effectif_ing                 110 ;
         dbo:numberOfStudents            1267 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -636,15 +662,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/b320d6bcbf5a71465c64f0a50e4960cd1195d3d6>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Palais> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            90 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -659,15 +686,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/6dfc557b37aa0942a100572d88340890e82a0f2c>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Palais> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            87 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -682,15 +710,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/cf2072a0fe11e93a61d6091f359c5a18523d39dc>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Palais> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            90 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -705,15 +734,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/8730a41ff34061ca10518cddbd5e6107555270de>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-P%C3%A9e-sur-Nivelle> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            31 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -728,15 +758,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/8a68f1d11404e814811366eb20bdfd9ee61a0f3b>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Ustaritz> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A04> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A04> ;
         dbo:numberOfStudents            27 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -751,18 +782,19 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A04>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A04>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A04> .
 
 <http://schema.org/record_id/73fea4dfff336d06109b77f6e09997817bc549d1>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Tarbes> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A16> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A16> ;
         dbo:numberOfStudents            100 ;
         dbo:educationSystem             "Établissements publics" ;
-        schema:EducationalOrganization  "Classes pr��paratoires aux grandes écoles (CPGE)" ;
+        schema:EducationalOrganization  "Classes préparatoires aux grandes écoles (CPGE)" ;
         dbo:formationYear               "2013"^^xsd:gYear .
 
 <https://ex.org/nous/region/Tarbes>
@@ -774,15 +806,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A16>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A16>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A16> .
 
 <http://schema.org/record_id/f5b2ddc4136b63810d7974f0b85f763ccd245206>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Tarbes> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A16> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A16> ;
         dbo:numberOfStudents            30 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -797,15 +830,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A16>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A16>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A16> .
 
 <http://schema.org/record_id/bfcb6e3a008910123c496122316024c5c4297b3c>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Tarbes> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A16> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A16> ;
         dbo:numberOfStudents            82 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -820,15 +854,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A16>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A16>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A16> .
 
 <http://schema.org/record_id/b933f49d5c25008391c192440e5fed5b279243a7>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Tarbes> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A16> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A16> ;
         dbo:numberOfStudents            52 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -843,15 +878,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A16>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A16>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A16> .
 
 <http://schema.org/record_id/c5083a92f84a151a4350095e5c18f38d33190d8b>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Tarbes> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A16> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A16> ;
         dbo:numberOfStudents            315 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -866,15 +902,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A16>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A16>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A16> .
 
 <http://schema.org/record_id/11b9c10ad6a8e6440ac00ee9fd7b381e9da241d0>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Tarbes> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A16> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A16> ;
         ex:effectif_ing                 906 ;
         ex:effectif_dut                 698 ;
         dbo:numberOfStudents            2897 ;
@@ -891,38 +928,40 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A16>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A16>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A16> .
 
 <http://schema.org/record_id/a7672cfafcc6e9df873b041fa68d427849f7cde8>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
-        igeo:nom                        <https://ex.org/nous/region/C%EF%BF%BD%EF%BF%BDret> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        igeo:nom                        <https://ex.org/nous/region/C%C3%A9ret> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         dbo:numberOfStudents            9 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
         dbo:formationYear               "2013"^^xsd:gYear .
 
-<https://ex.org/nous/region/C%EF%BF%BD%EF%BF%BDret>
+<https://ex.org/nous/region/C%C3%A9ret>
         rdf:type    igeo:nom ;
-        owl:sameAs  <https://ex.org/hippo/region/C%EF%BF%BD%EF%BF%BDret> .
+        owl:sameAs  <https://ex.org/hippo/region/C%C3%A9ret> .
 
 <http://ex.org/nous/codeRegion/>
         rdf:type    igeo:codeRegion ;
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/5a203643b3362271f57d46e8b5e3792d371739b1>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Font-Romeu-Odeillo-Via> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         dbo:numberOfStudents            308 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Universités" ;
@@ -937,15 +976,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/c4224ff594f05745e16778aaa627e1fabf5a35c5>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Perpignan> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         dbo:numberOfStudents            21 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Classes préparatoires aux grandes écoles (CPGE)" ;
@@ -960,15 +1000,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/99c8132a2e28e54acd96a9f52503d35ca919e118>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Perpignan> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         dbo:numberOfStudents            54 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -983,15 +1024,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/8f7e5423f468c62addb225d9a6abc94d31d3f150>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Perpignan> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         ex:effectif_dut                 214 ;
         dbo:numberOfStudents            4920 ;
         dbo:educationSystem             "Établissements publics" ;
@@ -1007,15 +1049,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/45f2f00a9e372428560463889c059f036188bc25>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Perpignan> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         dbo:numberOfStudents            224 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1030,15 +1073,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/5fc0ec1bfee45f3841596b394bc988fe6ee50596>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Perpignan> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         ex:effectif_dut                 298 ;
         dbo:numberOfStudents            2982 ;
         dbo:educationSystem             "Établissements publics" ;
@@ -1054,15 +1098,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/3489fe6255529a2954e1b0ec4694c1f945b8e178>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Th%C3%A9za> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         dbo:numberOfStudents            30 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1077,15 +1122,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/2fcd5f4acdefaf4e1b31e7f9372de1e0eb854010>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Th%C3%A9za> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A11> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A11> ;
         dbo:numberOfStudents            39 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1100,15 +1146,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A11>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A11>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A11> .
 
 <http://schema.org/record_id/0a9901d1fe798d2870981445144836a9c2057126>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Brumath> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            155 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -1123,15 +1170,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/1b09a4c1c96325bc1f50515d4f02be19deefdeec>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Erstein> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            162 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -1146,15 +1194,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/43f9a791aeebaeae13a7b0c1e3a6213210bf69ce>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Haguenau> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            115 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1169,15 +1218,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/270b7dd9520f2261300217f7cdf5d2b6a3f82e99>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Illkirch-Graffenstaden> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            11 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -1192,15 +1242,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/c3811cee6cb8c98da1d0c5297ed98032a0137d07>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Illkirch-Graffenstaden> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         ex:effectif_ing                 182 ;
         ex:effectif_dut                 437 ;
         dbo:numberOfStudents            1855 ;
@@ -1217,15 +1268,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/976a0f9b48197305f785f00f4cfd2378c750af1c>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Illkirch-Graffenstaden> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         ex:effectif_ing                 362 ;
         ex:effectif_dut                 674 ;
         dbo:numberOfStudents            1685 ;
@@ -1242,15 +1294,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/1135b12f53f2e44aa00d9ca8e17e3f0c259ce944>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Lingolsheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            15 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -1265,15 +1318,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/daae9a237ae852c7f6112f159d803e25ae2063d4>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Lingolsheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         ex:effectif_ing                 12 ;
         dbo:numberOfStudents            27 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -1289,15 +1343,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/3e2968d2eec8574266a747e6741cf90f9b026b29>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Molsheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            43 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1312,15 +1367,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/56bdaf02abe442706af1820ea8ef5a3a96e2fcb2>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saverne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            22 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -1335,15 +1391,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/8b56a2631d050b9b54e7cc2be9dbf8d498d20c2b>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saverne> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            141 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1358,15 +1415,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/38ca9ea48aa072aa3ddff79d753fa328ad525d1d>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Schiltigheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         ex:effectif_ing                 40 ;
         dbo:numberOfStudents            40 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -1382,15 +1440,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/d8c88d68ddb9ea330dae8ec4ce9e7ec07eb8aeba>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Schiltigheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         ex:effectif_dut                 258 ;
         dbo:numberOfStudents            327 ;
         dbo:educationSystem             "Établissements publics" ;
@@ -1406,15 +1465,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/a0e8dc8471a168293cb8467ba5873d6dac6c65a9>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/S%C3%A9lestat> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            137 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1429,15 +1489,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/c7d041bc9613673f26a5cee30ccbe15ffcbd0573>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Strasbourg> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            248 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Ecoles de commerce, gestion et comptabilité" ;
@@ -1452,15 +1513,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/3451e5e79d0a4b335d9995c4d546486b5ad7aeac>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Strasbourg> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            178 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -1475,15 +1537,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/a5965856d7b620c9daa274cecbeb18cfc5c32d46>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Strasbourg> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            219 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -1498,15 +1561,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/0bb69f284e848b30346fd04e75d3b50558c3d7e8>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Strasbourg> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            230 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "ESPE" ;
@@ -1521,15 +1585,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/f3563c7f544d0f28f522b8da11bee0aecb5ca584>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Strasbourg> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         ex:effectif_ing                 1411 ;
         dbo:numberOfStudents            20775 ;
         dbo:educationSystem             "Établissements publics" ;
@@ -1545,15 +1610,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/00b9c31c4a6f3aa488bb955d65ceb2a681520f6e>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Strasbourg> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            2248 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1568,15 +1634,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/56c600dbfab2d5ecda6b5cdd0029f3dc6ea617f3>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Strasbourg> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         ex:effectif_ing                 215 ;
         dbo:numberOfStudents            16576 ;
         dbo:educationSystem             "Établissements publics" ;
@@ -1592,15 +1659,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/a0a1f03ac6e9421547292a5224a9aa1946c9dc39>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Altkirch> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            20 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1615,15 +1683,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/2f0905fc5a5cda74eb93a86ed9cc7a51cbfe7f85>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Colmar> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            219 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1638,15 +1707,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/8bd884cbfc9e020c5cad784a981ea956707556b5>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Guebwiller> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            70 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1661,15 +1731,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/3efd1bc45aa9309acb5b958a27c2958615494d90>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Guebwiller> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            150 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1684,15 +1755,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/8acb77a1e5c9d542232328c53cb00ab3a79b6027>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Illzach> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            65 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1707,15 +1779,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/196dc44e6438a737d3bc07ad7dab37af757f219e>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Ingersheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            4 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1730,15 +1803,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/790c93bc4ba7a3b4d02f8aaab491b7a783c50771>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Mulhouse> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            66 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -1753,15 +1827,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/118fee7b744423b142cec7260e23123e2a8213c6>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Mulhouse> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            1 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -1776,15 +1851,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/745c0248fa6a15b9096e0e2d1dda1bc398acc848>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Pulversheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            2 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1799,15 +1875,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/79ca44600cf1337080ce1ff41906f4e335ab1cb9>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Rouffach> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            35 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1822,15 +1899,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/48ec68f4784dd0964aa964bd04b57ca6a5a81c8b>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Rouffach> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            50 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1845,15 +1923,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/1287b2e04a136c41c7c6f0171d1598ca3505d444>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Thann> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            35 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1868,15 +1947,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/ce06d837fa101e420be06c1330b760f664fad6cb>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Wittelsheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            1 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -1891,15 +1971,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/700ed9d3ef085fd976a2977d87dd8430c375ec91>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Wittelsheim> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A15> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A15> ;
         dbo:numberOfStudents            1 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -1914,15 +1995,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A15>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A15>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A15> .
 
 <http://schema.org/record_id/398d78366180ce55cdbee62dc2267460940ad4c5>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bron> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            53 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -1937,15 +2019,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/dffa580da65d03c8505299eb96d7d348376efaa3>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bron> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            30 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "ESPE" ;
@@ -1960,17 +2043,18 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/8469007b69c20273a7a5691e6b5af1e2497dc39c>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Bron> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            75 ;
-        dbo:educationSystem             "��tablissements publics" ;
+        dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
         dbo:formationYear               "2013"^^xsd:gYear .
 
@@ -1983,15 +2067,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/c0d99cd680a33a6fc21b2f6ecd0bf85c7d7a44bd>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Caluire-et-Cuire> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            162 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -2006,15 +2091,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/7ad3033aa8894a05219ee0f1d816f2517ebcf21e>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Caluire-et-Cuire> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            162 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -2029,15 +2115,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/4c5998b6f10cee77b480c743de6c18aafbc66e3b>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Charbonni%C3%A8res-les-Bains> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            26 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -2052,15 +2139,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/3c02605a86fbc9766727f72e8c4cd67b5c7e6666>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/%C3%89cully> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         ex:effectif_ing                 266 ;
         dbo:numberOfStudents            1948 ;
         dbo:educationSystem             "Établissements privés" ;
@@ -2076,15 +2164,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/c0365078addb551c5adb462eb51846e3e11fa0ba>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Marcy-l'%C3%89toile> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            170 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Autres écoles de spécialités diverses" ;
@@ -2099,15 +2188,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/b92c786187132f8ddfe84b8ae38f210556cfd937>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/La_Mulati%C3%A8re> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            163 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -2122,15 +2212,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/02dbd6adaa288ada4535b31db4f4e42023644549>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Oullins> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            81 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -2145,15 +2236,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/b7e7d6eeb97de3e44201de9e2c497300995d95f7>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Cyr-au-Mont-d'Or> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            40 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles juridiques et administratives" ;
@@ -2168,15 +2260,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/1d5bddba988ed7107d570923c99c8bd75a6c3fa5>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Cyr-au-Mont-d'Or> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            75 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles juridiques et administratives" ;
@@ -2191,15 +2284,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/e8e454f839123f1c775423a4801954d1863f5583>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Cyr-au-Mont-d'Or> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            40 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -2214,15 +2308,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/073e8e7ecb31a431474b9f83e91ea979842eb10c>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Genis-Laval> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            41 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Écoles paramédicales et sociales" ;
@@ -2237,15 +2332,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/e5fec980d4f0912ba39d3762d44533996969fe52>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Genis-Laval> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            497 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -2260,15 +2356,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/b1e796204f8d32f9dd4880425965821f5d3501de>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Genis-Laval> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            83 ;
         dbo:educationSystem             "Établissements publics" ;
         schema:EducationalOrganization  "Universités" ;
@@ -2283,15 +2380,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/f4335a4e70cf0c206ec3da0293a57ae5f0e822d1>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Masculin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Laurent-de-Chamousset> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            33 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Sections de techniciens supérieurs (STS) et assimilés" ;
@@ -2306,15 +2404,16 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .
 
 <http://schema.org/record_id/c98495e2df893af6ef9894fefb349a97be254c6b>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:dataset ;
         foaf:gender                     "Feminin" ;
         igeo:codeRegion                 <http://ex.org/nous/codeRegion/> ;
         igeo:nom                        <https://ex.org/nous/region/Saint-Laurent-de-Chamousset> ;
-        aiiso:code                      <https://ex.org/insertion-licences-pro/id_aca/A10> ;
+        aiiso:code                      <http://ex.org/projet/id_aca/A10> ;
         dbo:numberOfStudents            12 ;
         dbo:educationSystem             "Établissements privés" ;
         schema:EducationalOrganization  "Total des formations d'enseignement supérieur" ;
@@ -2329,5 +2428,6 @@
         owl:sameAs  <http://ex.org/budget/codeRegion/> ;
         owl:sameAs  <http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/> .
 
-<https://ex.org/insertion-licences-pro/id_aca/A10>
-        rdf:type  aiiso:code .
+<http://ex.org/projet/id_aca/A10>
+        rdf:type    aiiso:code ;
+        owl:sameAs  <http://ex.org/projet/id_aca/A10> .

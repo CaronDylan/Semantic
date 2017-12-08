@@ -16,7 +16,7 @@ CONSTRUCT {
 
     igeo:nom ?URI_Region_NOUS;
 
-	aiiso:code ?URI_id_academie;
+	aiiso:code ?URI_id_academie_NOUS;
 
     ex:effectif_ing ?EFFECTIF_ING;
     ex:effectif_dut ?EFFECTIF_DUT;
@@ -34,8 +34,8 @@ CONSTRUCT {
 
 
 	#liens avec les datas sur l'insertion professionnelle
-	?URI_id_academie rdf:type aiiso:code;
-		owl:sameAs ?URI_id_aca_effectifs_etus_sup.
+	?URI_id_academie_NOUS rdf:type aiiso:code;
+		owl:sameAs ?URI_id_academie_FELIX.
 
 }
 FROM <file:data_ees.csv>
@@ -46,13 +46,14 @@ WHERE {
 
   BIND (URI(CONCAT("https://ex.org/nous/region/", REPLACE(?geo_nom, " ","_"))) AS ?URI_Region_NOUS) .
 
-  BIND (URI(CONCAT("https://ex.org/projet/id_aca/", REPLACE(?aca_id, " ","_"))) AS ?URI_id_academie) .
+  BIND (URI(CONCAT("http://ex.org/projet/id_aca/", REPLACE(?aca_id, " ","_"))) AS ?URI_id_academie_NOUS) .
 
   
   BIND ((STRAFTER(?geo_id, "R")) AS ?codereg)
   BIND (URI(CONCAT("http://ex.org/nous/codeRegion/", ?codereg)) AS ?URI_Code_Region_NOUS)  
   BIND (URI(CONCAT("http://ex.org/budget/codeRegion/", ?codereg)) AS ?URI_Code_Region_LOIC)  
   BIND (URI(CONCAT("http://ex.org/fr-esr-rd-moyens-entreprises-intensite/codeRegion/", ?codereg)) AS ?URI_Code_Region_IVAN)
+  BIND (URI(CONCAT("http://ex.org/projet/id_aca/", ?aca_id)) AS ?URI_id_academie_FELIX)
 
 
 

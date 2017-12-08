@@ -1,0 +1,48 @@
+@prefix dbo:<http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+
+
+:Univ_Nantes        a						foaf:Organization;
+                    rdfs:label				"Université de Nantes";
+					foaf:homepage			<http://www.univ-nantes.fr> .
+
+:Caron_Dylan		a						foaf:Person;
+					rdfs:label				"Dylan Caron";
+					foaf:mbox				<dylan.caron@etu.univ-nantes.fr>;
+					dbo:university			:Univ_Nantes .
+
+:Pinel_Felix		a						foaf:Person;
+					rdfs:label				"Félix Pinel";
+					foaf:mbox				<felix.pinel@etu.univ-nantes.fr>;
+					dbo:university			:Univ_Nantes .
+
+:Dataset			a						void:Dataset;
+					dcterms:provenance		<https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-insertion_professionnelle-lp/?disjunctive.academie>;
+					dcterms:title			"Insertion professionnelle des diplômés de Licence professionnelle en universités et établissements assimilés";
+					foaf:homepage			<http://ex.org/projet/>
+					dcterms:contributor		:Univ_Nantes;
+					dcterms:publisher		:Caron_Dylan;
+					dcterms:publisher		:Pinel_Felix;
+					dcterms:modified		"2017-12-7"^^xsd:date;
+					dcterms:license 		<https://www.etalab.gouv.fr/licence-ouverte-open-licence>;
+					void:triples			45554;
+					void:feature 			<http://www.w3.org/ns/formats/Turtle> .
+
+:Dataset			a						void:Linkset;
+					void:target				:data_ees;
+					void:linkedPredicate	owl:sameAs .
+
+:data_ees			a						void:Dataset;
+					dcterms:provenance		<https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-atlas_regional-effectifs-d-etudiants-inscrits/export/?sort=-rentree>;
+                    dcterms:title			"Effectifs étudiants en études sup Pays de la Loire";
+					dcterms:description 	"Effectifs d'étudiants inscrits dans les établissements et les formations de l'enseignement supérieur en Pays de la Loire";
+					foaf:homepage 			<https://ex.org/cpr>;
+					void:triples			1624 .
+					
